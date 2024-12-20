@@ -1,0 +1,168 @@
+/*standard*/
+
+body{
+    margin: 0%;
+}
+header{
+    background: #1e025b;
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+h2{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+}
+p{
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color:  #007bff;
+}
+
+/*buttons and input fields*/
+
+.l-button{
+    font-family: 'Roboto',sans-serif;
+    border:2px solid white ;
+    background-color: transparent;
+    border-radius: 360px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.l-button2{
+    font-family: 'Roboto',sans-serif;
+    background-color: black;
+    border-radius: 360px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.l-button3{
+    font-family: 'Roboto',sans-serif;
+    background-color: #0000cc;
+    border: none;
+    border-radius: 360px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.l-subscribe form div input{
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 360px;
+    color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*menu's*/
+
+.l-menu-mobile{
+    display: flex;
+    flex-direction: row;
+}
+.l-menu-mobile div{
+    display: flex;
+    flex-direction: row;
+}
+.l-menu-mobile div img{
+    max-height: 100%;
+    padding: 10%;
+}
+.l-menu-mobile div div a{
+    align-items: flex-end;
+}
+.l-menu-main{
+    display: none;
+}
+
+/*main page*/
+
+.l-intro div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.l-intro div h1{
+    text-align:   center;
+}
+.l-intro div p{
+    text-align: center;
+}
+.l-intro div img{
+    max-width: 100%;
+    height: auto;
+}
+.m-text-intro{
+    display: block;
+    background: linear-gradient( to bottom right , #a454fd,#2b05df);
+    padding: 15%;
+}
+.l-about div img{
+    max-width: 100%;
+    height: auto;
+}
+
+.l-services{
+    background-image: url(../img/service-bg.jpg);
+}
+.l-services div div div{
+    width: 200px;
+    height: 200px;
+    background: white;
+}
+.l-subscribe{
+    background: #1e025b;
+}
+.l-copyright{
+    text-align: center;
+}
+.l-copyright p{
+    text-transform: capitalize;
+    color: black;
+}
+
+/*content*/
+
+.c-max-width{
+    max-width: 1130px;
+}
+#googleMap{
+    width: 100%;
+    height:400px;
+}
+
+/*media queries*/
+
+/*tablet*/
+@media screen and (min-width:768px) {
+    .l-menu-main{
+        display: none;
+    }
+}
+
+
+
+
+/* pc */
+@media screen and (min-width:992px) {
+    .l-menu-main{
+        display: block;
+    }
+    #menuHamburger{
+        display: none;
+    }
+}
