@@ -77,12 +77,14 @@ a{
 .l-menu-mobile div{
     display: flex;
     flex-direction: row;
+    align-items: stretch;
 }
 .l-menu-mobile div img{
     max-height: 100%;
     padding: 10%;
 }
-.l-menu-mobile div div a{
+.l-menu-mobile div a{
+    display: flex;
     align-items: flex-end;
 }
 .l-menu-main{
