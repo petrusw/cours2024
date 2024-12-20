@@ -71,21 +71,12 @@ a{
 /*menu's*/
 
 .l-menu-mobile{
-    display: flex;
-    flex-direction: row;
+    display: block;
 }
 .l-menu-mobile div{
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
-.l-menu-mobile div img{
-    max-height: 100%;
-    padding: 10%;
-}
-.l-menu-mobile div a{
-    display: flex;
-    align-items: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .l-menu-main{
     display: none;
