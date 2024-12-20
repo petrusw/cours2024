@@ -104,11 +104,26 @@ a{
     background: linear-gradient( to bottom right , #a454fd,#2b05df);
     padding: 15%;
 }
+.l-about div a h1{
+   color: gray;
+   font-family: 'Roboto',sans-serif;
+   font-size: medium;
+}
+.l-about h2{
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    font-size: xx-large;
+ }
+ .l-about div p{
+    color: black;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+ }
 .l-about div img{
     max-width: 100%;
     height: auto;
 }
-
 .l-services{
     background-image: url(../img/service-bg.jpg);
 }
