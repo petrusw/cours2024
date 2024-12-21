@@ -71,12 +71,25 @@ a{
 /*menu's*/
 
 .l-menu-mobile{
-    display: block;
-}
-.l-menu-mobile div{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+}
+#l-navbar-left {
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    flex: 50%;
+    justify-content: space-between;
+}
+#l-navbar-left h1 {
+    padding-left: 5%;
+}
+#l-navbar-right {
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    flex: 50%;
+    justify-content: flex-end;
 }
 .l-menu-main{
     display: none;
@@ -153,7 +166,11 @@ a{
     height:400px;
 }
 
+
+
 /*media queries*/
+
+
 
 /*tablet*/
 @media screen and (min-width:768px) {
